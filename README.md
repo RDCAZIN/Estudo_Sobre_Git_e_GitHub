@@ -22,6 +22,10 @@ Repositorios para armazenamento de resumos do curso de Versionamento de código 
 |git commit --amend -m "mensagem"| Reescreve ultimo commit|
 |git restore nome_do_arquivo| Volta arquivo para a ultima versao|
 |git reset --soft hash_do_commit_anterior_ao_ultimo| Desfaz o ultimo commit, mantem de stage|
-|git reset --mixed hash_do_commit_anterior_ao_ultimo| Desfaz o ultimo commit, fica fora do stage|
+|git reset --mixed hash_do_commit| Desfaz o ultimo commit, fica fora do stage|
 |git reset --hard hash_do_commit_anterior_ao_ultimo| Apaga todo o ulimo commit|
 |git reset nome_do_arquivo| tira da area de stage o arquivo|
+|git push -u origin main| manda pro Repositorio remoto (1° envio)|
+|git push origin nome_branch| manda para o Repositorio remoto|
+|git branch -M main|Força trocar master para main |
+|git pull| pega as alterações do remoto|
