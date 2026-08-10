@@ -29,3 +29,9 @@ Repositorios para armazenamento de resumos do curso de Versionamento de código 
 |git push origin nome_branch| manda para o Repositorio remoto|
 |git branch -M main|Força trocar master para main |
 |git pull| pega as alterações do remoto|
+|git checkout -b nome_da_branch| cria uma nova branch baseada na atual|
+|git checkout nome_da_branch| muda para outra branch|
+|git branch -v | mostra os ultimo commit de cada branch|
+|git branch| mostra em qual branch você ta e uma lista de todas as branch|
+|git merge nome_da_branch| mescla as branch |
+|git branch -d nome_da_branch| deleta a branch|
